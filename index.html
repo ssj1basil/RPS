@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>RPS</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="RPS.js"></script>
+    </header>
+
+    <body>
+        <h1 class="title">ROCK PAPER SCISSOR</h1>
+        <h2 id="userscore">User : 0</h2>
+        <h2 id="computerscore">Computer : 0</h2>
+        <div id="wrapper">
+          <button onclick= "restart()"class="button" type="button">Restart Game</button>
+        </div>
+        <h3 id="userchoice">Ready to play the game ?</h3>
+        <h3 id="computerchoice"></h3>
+        <div class="RPS">
+
+        <a href="javascript:game('Rock');" ><img id="rock" src="Rock_white.jpg"></a>
+        <a href="javascript:game('Paper');" ><img id="paper" src="paper_white.jpg"></a>
+        <a href="javascript:game('Scissor');" ><img id="scissor" src="scissor_white.jpg"></a>
+        </div>
+    
+        <h1 id="result"></h2>
+    </body>
+</html>

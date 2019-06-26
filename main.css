@@ -1,0 +1,63 @@
+*
+{
+    margin :0;
+
+}
+
+
+body
+{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+h1
+{
+    text-align: center;
+    padding: 20px;
+
+}
+
+h2#userscore
+{
+    position: relative;
+    float: left;
+}
+
+.wrapper
+{
+text-align: center;
+}
+
+.button
+{
+    position: relative;
+    left: 36%;
+    right: 36%;  
+    padding: 10px;
+    font-size: 15px;
+}
+h2#computerscore
+{
+    position: relative;
+    float: right;
+}
+
+h3#userchoice, #computerchoice
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1#result
+{
+    text-align: center;
+}
+img
+{
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+    left: 10%;
+}
