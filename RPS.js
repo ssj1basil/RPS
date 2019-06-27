@@ -31,40 +31,40 @@ function init()
 {
 document.getElementById('rock').onmouseover= function(event)
 {
-    document.getElementById('rock').src="Rock_black.jpg";
+    document.getElementById('rock').src="./Images/Rock_black.jpg";
     document.getElementById('rock').value="Mouse over image";
 }
 
 document.getElementById('rock').onmouseleave= function(event)
 {
-    document.getElementById('rock').src="Rock_white.jpg";
+    document.getElementById('rock').src="./Images/Rock_white.jpg";
     document.getElementById('rock').value="Mouse left image";
 }
 
 
 document.getElementById('paper').onmouseover= function(event)
 {
-    document.getElementById('paper').src="paper_black.jpg";
+    document.getElementById('paper').src="./Images/paper_black.jpg";
     document.getElementById('paper').value="Mouse over image";
 }
 
 
 document.getElementById('paper').onmouseleave= function(event)
 {
-    document.getElementById('paper').src="paper_white.jpg";
+    document.getElementById('paper').src="./Images/paper_white.jpg";
     document.getElementById('paper').value="Mouse left image";
 }
 
 
 document.getElementById('scissor').onmouseover= function(event)
 {
-    document.getElementById('scissor').src="scissor_black.jpg";
+    document.getElementById('scissor').src="./Images/scissor_black.jpg";
     document.getElementById('scissor').value="Mouse over image";
 }
 
 document.getElementById('scissor').onmouseleave= function(event)
 {
-    document.getElementById('scissor').src="scissor_white.jpg";
+    document.getElementById('scissor').src="./Images/scissor_white.jpg";
     document.getElementById('scissor').value="Mouse left image";
 }
 
